@@ -6,8 +6,8 @@ namespace Helloprogram
         static void Main(string[] args)
         {
             Console.WriteLine("1= Getdata");
-            Console.WriteLine("2= operator");
-            Console.WriteLine("3= loops");
+            Console.WriteLine("2= Operator");
+            Console.WriteLine("3= Binary_operator");
 
             int find = int.Parse(Console.ReadLine());
 
@@ -15,6 +15,12 @@ namespace Helloprogram
             {
                 case 1:
                     Getdata.Run();
+                    break;
+                 case 2:
+                    Operator.Run();
+                 break;
+                 case 3:
+                    Binary_operator.Run();
                     break;
                 default:
                     Console.WriteLine("invalid input"); break;
