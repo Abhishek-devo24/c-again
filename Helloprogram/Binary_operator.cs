@@ -42,6 +42,31 @@ namespace Helloprogram
             Console.WriteLine("c after used *=:" + e);
             e %= d;
             Console.WriteLine("c after used %=:" + e);
+            // Relational operator (==, !=, >, <, >=, <=) used in condition and compare two values
+            Console.WriteLine("enter value of x");
+            int x = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter value of y");
+            int y = int.Parse(Console.ReadLine());
+            if (x > y) // >
+            {
+                Console.WriteLine("x is greater than y");
+            }
+            else
+            {
+                Console.WriteLine("y is not greater than x");
+            }
+            if (y == x) // ==
+            {
+                Console.WriteLine("y is equal to x");
+            }
+            else   // also we used != for this statement
+            {
+                Console.WriteLine("y is not equal to x");
+            }
+            if (x <= y) 
+            {
+                Console.WriteLine("y is greater than equal to x");
+            }
             Console.ReadKey();
 
         }
