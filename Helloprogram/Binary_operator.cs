@@ -30,7 +30,7 @@ namespace Helloprogram
             // ex. += a=5, b=6
             //  a+=b  
             //  a=a+b a will be plus with b variable and is equal to value of a 
-            Console.WriteLine("enter value of c");
+            Console.WriteLine("enter value of e");
             int e = int.Parse(Console.ReadLine());
             Console.WriteLine("enter value of d");
             int d = int.Parse(Console.ReadLine());
@@ -67,6 +67,10 @@ namespace Helloprogram
             {
                 Console.WriteLine("y is greater than equal to x");
             }
+            if(y <= x && y< x)
+            {
+                Console.WriteLine();
+            } 
             Console.ReadKey();
 
         }
