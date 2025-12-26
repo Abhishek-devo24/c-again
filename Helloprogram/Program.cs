@@ -9,6 +9,7 @@ namespace Helloprogram
             Console.WriteLine("2= Operator");
             Console.WriteLine("3= Binary_operator");
             Console.WriteLine("4= Desicion_making");
+            Console.WriteLine("5=Decision_making_part2");
 
             int find = int.Parse(Console.ReadLine());
 
@@ -26,6 +27,9 @@ namespace Helloprogram
                   case 4:
                     Decision_making.Run();
                   break;
+                 case 5:
+                    Decision_making_part2.Run();
+                    break;
                 default:
                     Console.WriteLine("invalid input"); break;
             }
