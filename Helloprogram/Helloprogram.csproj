@@ -48,6 +48,7 @@
     <Compile Include="Class2.cs" />
     <Compile Include="Decision_making.cs" />
     <Compile Include="Decision_making_part2.cs" />
+    <Compile Include="Menu_Driven_program.cs" />
     <Compile Include="Operator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
