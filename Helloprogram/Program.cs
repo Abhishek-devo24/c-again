@@ -11,6 +11,7 @@ namespace Helloprogram
             Console.WriteLine("4= Desicion_making");
             Console.WriteLine("5=Decision_making_part2");
             Console.WriteLine("6= Menu_Driven_program");
+            Console.WriteLine("7=For_loop");
 
             int find = int.Parse(Console.ReadLine());
 
@@ -33,6 +34,9 @@ namespace Helloprogram
                     break;
                 case 6:
                     Menu_Driven_program.Run();
+                    break;
+                case 7:
+                    For_loop.Run();
                     break;
                 default:
                     Console.WriteLine("invalid input"); break;

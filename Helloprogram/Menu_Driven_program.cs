@@ -30,6 +30,7 @@ namespace Helloprogram
                     triangle();
                     break;
             }
+     
         }
         public static void circle()
         {
@@ -58,5 +59,6 @@ namespace Helloprogram
             double result = 0.5 * b * h;
             Console.WriteLine("Area of triangle is:" + result);
         }
+        
     }
 }
