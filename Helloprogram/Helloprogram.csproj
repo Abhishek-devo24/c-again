@@ -50,6 +50,7 @@
     <Compile Include="Decision_making_part2.cs" />
     <Compile Include="Do_while.cs" />
     <Compile Include="For_loop.cs" />
+    <Compile Include="infine_loop.cs" />
     <Compile Include="Menu_Driven_program.cs" />
     <Compile Include="Operator.cs" />
     <Compile Include="Program.cs" />

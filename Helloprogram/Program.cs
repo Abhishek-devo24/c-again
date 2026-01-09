@@ -14,6 +14,7 @@ namespace Helloprogram
             Console.WriteLine("7=For_loop");
             Console.WriteLine("8=While_loop");
             Console.WriteLine("9=Do_while");
+            Console.WriteLine("10=infine_loop");
 
             int find = int.Parse(Console.ReadLine());
 
@@ -45,6 +46,9 @@ namespace Helloprogram
                     break;  
                 case 9:
                     Do_while.Run();
+                    break;
+                case 10:
+                    infine_loop.Run();
                     break;
                 default:
                     Console.WriteLine("invalid input"); break;
