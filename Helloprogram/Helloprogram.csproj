@@ -52,7 +52,9 @@
     <Compile Include="For_loop.cs" />
     <Compile Include="infine_loop.cs" />
     <Compile Include="Menu_Driven_program.cs" />
+    <Compile Include="Nested_loop.cs" />
     <Compile Include="Operator.cs" />
+    <Compile Include="pattern_draw_horizontal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="While_loop.cs" />
