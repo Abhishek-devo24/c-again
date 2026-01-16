@@ -54,6 +54,7 @@
     <Compile Include="Menu_Driven_program.cs" />
     <Compile Include="Nested_loop.cs" />
     <Compile Include="Operator.cs" />
+    <Compile Include="Pattern_design.cs" />
     <Compile Include="pattern_draw_horizontal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

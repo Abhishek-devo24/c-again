@@ -18,6 +18,7 @@ namespace Helloprogram
             Console.WriteLine("10 = Infinite_loop");
             Console.WriteLine("11 = Nested_loop");
             Console.WriteLine("12 = pattern_draw_horizontal");
+            Console.WriteLine("13 = Pattern_design");   
 
             Console.WriteLine("enter a no.");
             string input = Console.ReadLine();
@@ -75,6 +76,9 @@ namespace Helloprogram
                 case 12:
                     pattern_draw_horizontal.Run();
                     break;
+                case 13:
+                    Pattern_design.Run();
+                    break;  
                 default:
                     Console.WriteLine("Invalid option selected");
                     break;
