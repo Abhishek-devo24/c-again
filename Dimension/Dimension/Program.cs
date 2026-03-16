@@ -15,23 +15,27 @@ class Mlt()
         //}
         //Console.WriteLine(arr[2,3]+"");
         // Declare and initialize an array
-        int[] arr = { 13,4,66,356,6434 };
-        //Console.WriteLine(i[3]);
-        int largest = arr[0];
-        int secdlargest = arr[0];
-        for (int i = 0; i< arr.Length; i++)
-        {
-            if (arr[i] > largest)
-            {
-                secdlargest = largest;
-                largest = arr[i];
-            }
-            else if (arr[i] > secdlargest && arr[i] != largest)
-            {
-                secdlargest = arr[i];
-            }
-        }
-        Console.WriteLine($"second largest no. in arr ={secdlargest}");
+        //int[] arr = { 13,4,66,356,6434 };
+        ////Console.WriteLine(i[3]);
+        //int largest = arr[0];
+        //int secdlargest = arr[0];
+        //for (int i = 0; i< arr.Length; i++)
+        //{
+        //    if (arr[i] > largest)
+        //    {
+        //        secdlargest = largest;
+        //        largest = arr[i];
+        //    }
+        //    else if (arr[i] > secdlargest && arr[i] != largest)
+        //    {
+        //        secdlargest = arr[i];
+        //    }
+        //}
+        //Console.WriteLine($"second largest no. in arr ={secdlargest}");
+        int[] arr = {3,1,5,2,6,2,7,19,15 };
+        Array.Sort(arr);
+        Console.WriteLine("Sorted array:");
+        Console.WriteLine("second largest no." + arr[arr.Length-2]);
     }
 
 }
