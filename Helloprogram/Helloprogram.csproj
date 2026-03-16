@@ -53,6 +53,7 @@
     <Compile Include="infine_loop.cs" />
     <Compile Include="Menu_Driven_program.cs" />
     <Compile Include="Nested_loop.cs" />
+    <Compile Include="OOPs.cs" />
     <Compile Include="Operator.cs" />
     <Compile Include="Pattern_design.cs" />
     <Compile Include="pattern_draw_horizontal.cs" />
